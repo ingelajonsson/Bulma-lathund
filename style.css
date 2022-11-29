@@ -1,0 +1,109 @@
+header {
+    border: 1px solid lightgray;
+}
+
+th, td {
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+/* .footCol {
+    border: 1px solid black;
+} */
+
+/* Sofias CSS */
+.example{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+ .btn{
+    display: flex;
+    justify-content: center;
+
+} 
+
+.htmlCodeWrapper {
+    display: flex;
+    justify-content: center;
+     margin-top: 15px; /* utrymme 10px top / */
+    margin-bottom: 10px; /* utrymme 10px bot */
+}
+
+.htmlCode{
+    background-color: #1f2330;
+    padding: 20px 15px;
+    width: 600px;
+    display: flex;
+    align-items: center; /* ett sätt att centrera horisontellt */
+    justify-content: space-around;
+}
+
+/* Colors for html preview */
+  
+.tagName {
+    color: lightblue;
+}
+
+.tagAttr{
+    color: yellow;
+}
+
+.tagAttrValue{
+    color: aquamarine;
+}
+
+.tagContent{
+    color: white;
+}
+.equals{
+    color: pink;
+
+    align-items: space-around;
+    margin-right: 60px;
+}
+
+/* / youtube clip / */
+.hrefText{
+    display: flex;
+    justify-content: center;
+}
+.youtubeclip{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* list items */
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+ul{
+    list-style: disc !important;
+}
+.listItems{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* exampleBtn  */
+
+.exampleBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    justify-content:center;
+}
+
+.exampleBtn div{
+    margin-right: 10px;
+}
+
+/* Sofias CSS slutar här  */

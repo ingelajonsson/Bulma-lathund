@@ -1,0 +1,228 @@
+<!-- INGELA -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulma</title>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="is-size-1 has-text-centered has-background-primary has-text-light py-4">BULMA: A guide to perfection</h1>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="../index.html">
+            Home
+          </a>
+          <a class="navbar-item" href="text.html">
+            Text
+          </a>
+          <a class="navbar-item" href="colors.html">
+            Colors
+          </a>
+          <a class="navbar-item" href="button.html">
+            Buttons
+          </a>
+          <a class="navbar-item" href="spacing.html">
+            Spacing
+          </a>
+        </div>
+      </div>
+  </header>
+
+  <h2 class="is-size-2 has-text-centered mt-4">Typography guidelines</h2>
+  <p class="is-size-4 has-text-centered">Change the size, weight and other font properties
+    of the text by adding the following classes</p>
+  <br/><br/>
+
+  <div class="columns">
+    <main class="column px-6 is-three-quarters">
+      <div>
+        <h3 class="is-size-5 has-text-primary has-text-weight-bold">
+          SIZE
+        </h3><br/>
+        <table class="is-size-6" style="width:90%">
+          <tr>
+            <th>Class</th>
+            <th>Font-size</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td><code>is-size-1</code></td>
+            <td>3rem</td>
+            <td class="is-size-1">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-2</code></td>
+            <td>2.5rem</td>
+            <td class="is-size-2">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-3</code></td>
+            <td>2rem</td>
+            <td class="is-size-3">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-4</code></td>
+            <td>1.5rem</td>
+            <td class="is-size-4">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-5</code></td>
+            <td>1.25rem</td>
+            <td class="is-size-5">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-6</code></td>
+            <td>1rem</td>
+            <td class="is-size-6">Example</td>
+          </tr>
+          <tr>
+            <td><code>is-size-7</code></td>
+            <td>0.75rem</td>
+            <td class="is-size-7">Example</td>
+          </tr>
+        </table>
+        <br/>
+
+          <div>
+            <h3 class="is-size-5 has-text-primary has-text-weight-bold">
+              ALIGNMENT
+            </h3><br/>
+            <table class="is-size-6" style="width:90%">
+              <tr>
+                <th>Class</th>
+                <th>Alignment</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td><code>has-text-centered</code></td>
+                <td>Makes the text centered</td>
+                <td class="has-text-centered">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-justified</code></td>
+                <td>Makes the text justified</td>
+                <td class="has-text-justified">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-left</code></td>
+                <td>Makes the text left</td>
+                <td class="has-text-left">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-right</code></td>
+                <td>Makes the text right</td>
+                <td class="has-text-right">Example</td>
+              </tr>
+            </table><br/>
+          </div>
+          <div>
+            <h3 class="is-size-5 has-text-primary has-text-weight-bold">
+              TEXT TRANSFORMATION
+            </h3><br/>
+            <table class="is-size-6" style="width:90%">
+              <tr>
+                <th>Class</th>
+                <th>Transformation</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td><code>is-capitalized</code></td>
+                <td>Transforms the first character of each word to uppercase</td>
+                <td class="is-capitalized">Example</td>
+              </tr>
+              <tr>
+                <td><code>is-lowercase</code></td>
+                <td>Transforms all characters to lowercase</td>
+                <td class="is-lowercase">Example</td>
+              </tr>
+              <tr>
+                <td><code>is-uppercase</code></td>
+                <td>Transforms the all characters to uppercase</td>
+                <td class="is-uppercase">Example</td>
+              </tr>
+              <tr>
+                <td><code>is-italic</code></td>
+                <td>Transforms all characters to italic</td>
+                <td class="is-italic">Example</td>
+              </tr>
+              <tr>
+                <td><code>is-underlined</code></td>
+                <td>Underlines the text</td>
+                <td class="is-underlined">Example</td>
+              </tr>
+            </table>
+          </div><br/>
+         
+          <div>
+            <h3 class="is-size-5 has-text-primary has-text-weight-bold">
+              TEXT WEIGHT
+            </h3><br/>
+            <table class="is-size-6" style="width:90%">
+              <tr>
+                <th>Class</th>
+                <th>Weight</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td><code>has-text-weight-light</code></td>
+                <td>Transforms text weight to light</td>
+                <td class="has-text-weight-light">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-weight-normal</code></td>
+                <td>Transforms text weight to normal</td>
+                <td class="has-text-weight-normal">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-weight-medium</code></td>
+                <td>Transforms text weight to medium</td>
+                <td class="has-text-weight-medium">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-weight-semibold</code></td>
+                <td>Transforms text weight to semi-bold</td>
+                <td class="has-text-weight-semibold">Example</td>
+              </tr>
+              <tr>
+                <td><code>has-text-weight-bold</code></td>
+                <td>Transforms text weight to bold</td>
+                <td class="has-text-weight-bold">Example</td>
+              </tr>
+            </table>
+          </div><br/>
+    </main>
+    <aside class="column mx-6 mt-6">
+      <div class="pt-6">
+        To access the full documentation you can visit Bulma's official webpage, <a href="https://bulma.io/documentation/">https://bulma.io/documentation/</a> 
+      </div>
+    </aside>
+  </div>
+
+
+  <!-- colours
+  <p class="has-text-primary-dark has-background-light">I´m primary text</p>
+  <p class="has-text-warning has-background-danger">I´m warning text</p>
+  <p class="has-text-danger-dark">I´m danger text</p>
+  <p class="has-text-info">I´m info text</p>
+  <p class="has-text-success">I´m success text</p>
+  <p class="has-text-dark">I´m dark text</p>
+  <p class="has-text-light has-background-primary">With different class names you can make different styles to your text
+  </p> -->
+</body>
+</html>
