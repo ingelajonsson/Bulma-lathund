@@ -106,3 +106,49 @@ ul{
 }
 
 /* Sofias CSS slutar här  */
+
+
+
+/* HAMPUS CSS */
+
+.boxSpacing {
+    border:solid 1px black;
+    width: 500px;
+}
+
+.divBoxOne {
+    width: 500px;
+}
+
+.divBoxTwo {
+    width: 500px;
+}
+
+.divBoxThree {
+    width: 500px;
+}
+
+
+.examplesDiv {
+    display: flex;
+    flex-direction:column;
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexboxDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sizes {
+    width: 16rem;
+}
+
+.h2Spacing {
+    margin-left: 4.5rem;
+}
+
+/* HAMPUS CSS SLUTAR HÄR */
