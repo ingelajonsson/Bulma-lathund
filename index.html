@@ -2,67 +2,69 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bulma</title>
-  <script src="main.js" defer></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulma</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1 class="is-size-1 has-text-centered has-background-primary has-text-light py-4">BULMA: A guide to perfection</h1>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
+    <header>
+        <h1 class="is-size-1 has-text-centered has-background-primary has-text-light py-4">BULMA: A guide to perfection
+        </h1>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="index.html">
-            Home
-          </a>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="html/text.html">
+                        Text
+                    </a>
+                    <a class="navbar-item" href="html/colors.html">
+                        Colors
+                    </a>
+                    <a class="navbar-item" href="html/button.html">
+                        Buttons
+                    </a>
+                    <a class="navbar-item" href="html/spacing.html">
+                        Spacing
+                    </a>
+                </div>
+            </div>
 
-          <a class="navbar-item" href="html/text.html">
-            Text
-          </a>
-
-          <a class="navbar-item" href="html/colors.html">
-            Colors
-          </a>
-
-          <a class="navbar-item" href="html/button.html">
-            Buttons
-          </a>
-          <a class="navbar-item" href="html/spacing.html">
-            Spacing
-          </a>
-
-
-        </div>
-      </div>
-
-  </header>
-  <main>
+    </header>
+    <main>
         <div class="columns">
             <div class="column my-6 px-6">
-                <iframe class="has-text-centered is-three-quarters" width="560" height="315" src="https://www.youtube.com/embed/bCTdyfHfUaI" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                <iframe 
+                    class="indexVideo  has-text-centered is-three-quarters" 
+                    width="560" height="315"
+                    src="https://www.youtube.com/embed/bCTdyfHfUaI" 
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
             <div class="column my-6 px-6">
                 <div class="is-size-3">
-                Bulma is a free, open source framework that provides ready-to-use frontend components that you
-                can easily combine to build responsive web interfaces
+                    Bulma is a free, open source framework that provides ready-to-use frontend components that you
+                    can easily combine to build responsive web interfaces
                 </div><br><br>
                 <div class="is-size-6">
-                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
                     <p>(Bulma's logo)</p>
                 </div>
             </div>
@@ -71,28 +73,28 @@
             <p class="is-size-4 pl-6 pr-6">
                 On this webpage you will learn how to use different functions from the framework Bulma.
                 Please give us some feedback if you like our page or if there is something we could improve.
-            </p><br/>
-            <label for="name">Fill out your name:</label><br/>
-            <input type="text" id="text"><br/><br/>
-            <label for="email">Fill out your e-mail:</label><br/>
-            <input type="email" id="email"><br/><br/>
-            <label for="textarea">Write your feedback here:</label><br/>
-            <textarea id="textarea" cols="50" rows="4"></textarea><br/><br/>
+            </p><br />
+            <label for="name">Fill out your name:</label><br />
+            <input type="text" id="text"><br /><br />
+            <label for="email">Fill out your e-mail:</label><br />
+            <input type="email" id="email"><br /><br />
+            <label for="textarea">Write your feedback here:</label><br />
+            <textarea id="textarea" cols="50" rows="4"></textarea><br /><br />
             <button class="button is-primary" id="submitBtn">Submit feedback</button>
-            <br/><br/><br/>
+            <br /><br /><br />
         </div>
-  </main>
-  <footer class="footer columns py-2 has-background-primary-light has-text-grey">
-      <span class="column footCol">
-              Adress:<br/>
-              Notarealadress 1, 123 45<br/>
-              Neverland<br/>
-      </span> 
-            <span class="has-text-right column footCol">
-                Contact:<br/>
-                E-mail: fakemail@mail.com
-            </span>
-  </footer>
+    </main>
+    <footer class="footer columns py-2 has-background-primary-light has-text-grey">
+        <span class="column footCol">
+            Adress:<br />
+            Notarealadress 1, 123 45<br />
+            Neverland<br />
+        </span>
+        <span class="has-text-right column footCol">
+            Contact:<br />
+            E-mail: fakemail@mail.com
+        </span>
+    </footer>
 </body>
 
 </html>
