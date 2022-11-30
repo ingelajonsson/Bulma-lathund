@@ -26,7 +26,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-
+ 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="../index.html">
@@ -51,14 +51,122 @@
       </div>
 
   </header>
-  <main>
-    <h2 class="is-size-2 has-text-centered">Spacing Hampus!</h2>
-  </main>
-   <!-- spacing -->
-   <h1 class="py-6 my-6">Hello, Bulma</h1>
-   <h1 class="px-4 mx-6 py-4">Hello, Bulma</h1> <!-- padding in the y and the x direction -->
-   <h1 class="mt-4 mr-4 pb-6 pl-3">Hello, Bulma</h1> <!-- padding in one of the direction, mt margin top, mr margin right, pb padding bottum, pl padding left-->
-  
-</body>
+  <main class="spacingMain">
+    <h2 class="h2Spacing is-size-2 pb-6 pt-6">How you can use spacing</h2>
+    <div class="flexboxDiv">
+      <!-- --------- SPACING --------- -->
+      <div class="examplesDiv">
+        <h3 class="is-size-4 pb-4">Examples</h3>
 
+        <!-- --------- Box one --------- -->
+        <div class="divBoxOne">
+          <div class="boxSpacing">
+            <h3 class="py-5 mt-5"><strong>Hello, Bulma</strong></h3>
+          </div>
+          <code>class="py-5 mt-5"></code>
+          <p class="mb-6 ml-4">
+            Adds 1.5rem of padding to top and bottom and 1.5rem of margin to
+            top
+          </p>
+        </div>
+
+        <!-- --------- Box two --------- -->
+        <div class="divBoxTwo">
+          <div class="boxSpacing">
+            <h3 class="px-6 mx-6 py-6"><strong>Hello, Bulma</strong></h3>
+            <!-- padding in the y and the x direction -->
+          </div>
+          <code>class="px-6 mx-6 py-6"</code>
+          <p class="mb-6 ml-4">
+            Adds 3rem of padding left and right, 3rem of margin left and right
+            and 3rem padding top and bottom
+          </p>
+        </div>
+
+        <!-- --------- Box three --------- -->
+        <div class="divBoxThree">
+          <div class="boxSpacing">
+            <h3 class="mt-4 pb-6 pl-3"><strong>Hello, Bulma</strong></h3>
+            <!-- padding in one of the direction, mt margin top, mr margin right, pb padding bottum, pl padding left-->
+          </div>
+          <code>class="mt-4 pb-6 pl-3"></code>
+          <p class="mb-6 ml-4">
+            Adds 1rem of margin top, 3rem of padding bottom and 0.75rem of
+            padding left padding left
+          </p>
+        </div>
+      </div>
+
+      <div class="infoDiv">
+        <div class="divSpacing ml-6 pl-6">
+          <!-- LATHUND -->
+
+          
+          <h3 class="is-size-4 pb-4">Shortcuts</h3>
+
+
+          <li>mt for margin top</li>
+          <li>mb for margin bottom</li>
+          <li>ml for margin left</li>
+          <li>mr for margin right</li>
+          <li>mx for margin left and right</li>
+          <li class="mb-6">my for margin top and bottom</li>
+
+          <div class="sizes">
+          <table class="table is-bordered">
+            <h3 class="is-size-5">Sizes</h3>
+            <thead>
+              <tr>
+                <th>Sizes</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+
+            <tr>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>0.25rem</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>0.5rem</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>0.75rem</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>1rem</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>1.5rem</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>3rem</td>
+            </tr>
+          </table>
+          <p>You can use a maximum of 3rem with margin and padding</p>
+        </div>
+        </div>
+      </div>
+      <div class="divPadding pr-6">
+        <h3 class="is-size-4 pb-4">Shortcuts</h3>
+
+
+        <li>pt for padding top</li>
+        <li>pb for padding bottom</li>
+        <li>pl for padding left</li>
+        <li>pr for padding right</li>
+        <li>px for padding left and right</li>
+        <li class="mb-6">my for padding top and bottom</li>
+      </div>
+    </div>
+  </main>
+</body>
 </html>
