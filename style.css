@@ -3,89 +3,102 @@ header {
     border: 1px solid lightgray;
 }
 
-th, td {
+th,
+td {
     border: 1px solid grey;
     padding: 4px;
 }
 
+/* .indexVideo {
+    width: 100%;
+    height: 100%;
+} */
+
 /* Ingelas kod slutar här */
 
 /* Sofias CSS */
-.example{
+.example {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 
 }
 
- .btn{
+.btn {
     display: flex;
     justify-content: center;
 
-} 
+}
 
 .htmlCodeWrapper {
     display: flex;
     justify-content: center;
-     margin-top: 15px; /* utrymme 10px top / */
-    margin-bottom: 10px; /* utrymme 10px bot */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.htmlCode{
+.htmlCode {
     background-color: #1f2330;
     padding: 20px 15px;
-    width: 600px;
+    width: 800px;
     display: flex;
-    align-items: center; /* ett sätt att centrera horisontellt */
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Colors for html preview */
-  
+.htmlCode2 {
+    background-color: #7184c0;
+    padding: 20px 15px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Colors for html */
 .tagName {
     color: lightblue;
 }
 
-.tagAttr{
+.tagAttr {
     color: yellow;
 }
 
-.tagAttrValue{
+.tagAttrValue {
     color: aquamarine;
 }
 
-.tagContent{
+.tagContent {
     color: white;
 }
-.equals{
-    color: pink;
 
-    align-items: space-around;
-    margin-right: 60px;
-}
 
-/* / youtube clip / */
-.hrefText{
+/* youtube clip */
+.hrefText {
     display: flex;
     justify-content: center;
 }
-.youtubeclip{
+
+.youtubeclip {
     display: flex;
     justify-content: center;
 }
 
 
-/* list items */
-.text{
+/* list items  */
+.text {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: -30px;
 }
-ul{
+
+ul {
     list-style: disc !important;
 }
-.listItems{
+
+.listItems {
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -93,16 +106,12 @@ ul{
 
 /* exampleBtn  */
 
-.exampleBtn{
+.exampleBtn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    justify-content:center;
-}
-
-.exampleBtn div{
-    margin-right: 10px;
+    justify-content: center;
 }
 
 /* Sofias CSS slutar här  */
@@ -112,7 +121,7 @@ ul{
 /* HAMPUS CSS */
 
 .boxSpacing {
-    border:solid 1px black;
+    border: solid 1px black;
     width: 500px;
 }
 
@@ -131,7 +140,7 @@ ul{
 
 .examplesDiv {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .infoDiv {
@@ -143,6 +152,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
 }
+
 .sizes {
     width: 16rem;
 }
